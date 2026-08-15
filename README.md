@@ -4,5 +4,15 @@
 <h2>1. 강의소개 및 실습환경 구축<h2/>
     <a href="https://stbhg5.tistory.com/1153">개발환경 구축 : AI도구 사용에 필요한 프로그램 설치</a><br/>
     <a href="https://stbhg5.tistory.com/1158">Claude Desktop과 Claude Code 설치</a><br/>
+    <a href="https://stbhg5.tistory.com/1160">IntelliJ, H2 Database 설치 및 AI도구 연동</a><br/>
+    <br/><br/>
+
+<h2><h2/>
+    <a href=""></a><br/>
+    <a href=""></a><br/>
+    <br/><br/>
+
+<h2><h2/>
+    <a href=""></a><br/>
     <a href=""></a><br/>
     <br/><br/>
