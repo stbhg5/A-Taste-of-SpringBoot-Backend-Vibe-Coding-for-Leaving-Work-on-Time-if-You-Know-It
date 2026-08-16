@@ -7,8 +7,8 @@
     <a href="https://stbhg5.tistory.com/1160">IntelliJ, H2 Database 설치 및 AI도구 연동</a><br/>
     <br/><br/>
 
-<h2><h2/>
-    <a href=""></a><br/>
+<h2>2. Claude Desktop 활용하기<h2/>
+    <a href="https://stbhg5.tistory.com/1163">Claude for Desktop과 MCP에 대한 이해</a><br/>
     <a href=""></a><br/>
     <br/><br/>
 
