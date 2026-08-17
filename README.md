@@ -9,6 +9,11 @@
 
 <h2>2. Claude Desktop 활용하기<h2/>
     <a href="https://stbhg5.tistory.com/1163">Claude for Desktop과 MCP에 대한 이해</a><br/>
+    <a href="https://stbhg5.tistory.com/1167">AI가 출력하는 Hello World</a><br/>
+    <br/><br/>
+
+<h2><h2/>
+    <a href=""></a><br/>
     <a href=""></a><br/>
     <br/><br/>
 
