@@ -12,8 +12,8 @@
     <a href="https://stbhg5.tistory.com/1167">AI가 출력하는 Hello World</a><br/>
     <br/><br/>
 
-<h2><h2/>
-    <a href=""></a><br/>
+<h2>3. 바이브 코딩을 위한 미니 프로젝트 설계<h2/>
+    <a href="https://stbhg5.tistory.com/1173">AI가 알아 들을 수 있는 프로젝트 기획 준비</a><br/>
     <a href=""></a><br/>
     <br/><br/>
 
