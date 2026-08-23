@@ -17,8 +17,8 @@
     <a href="https://stbhg5.tistory.com/1178">코드 생성을 위한 상세 기획서 작성 (프롬프트 자료 포함)</a><br/>
     <br/><br/>
 
-<h2><h2/>
-    <a href=""></a><br/>
+<h2>4. Claude로 구현<h2/>
+    <a href="https://stbhg5.tistory.com/1181">1단계: 수작업 DB생성</a><br/>
     <a href=""></a><br/>
     <br/><br/>
 
