@@ -19,6 +19,7 @@
 
 <h2>4. Claude로 구현<h2/>
     <a href="https://stbhg5.tistory.com/1181">1단계: 수작업 DB생성</a><br/>
+    <a href="https://stbhg5.tistory.com/1185">2단계: Spring Boot 프로젝트 생성</a><br/>
     <a href=""></a><br/>
     <br/><br/>
 
