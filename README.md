@@ -21,6 +21,7 @@
     <a href="https://stbhg5.tistory.com/1181">1단계: 수작업 DB생성</a><br/>
     <a href="https://stbhg5.tistory.com/1185">2단계: Spring Boot 프로젝트 생성</a><br/>
     <a href="https://stbhg5.tistory.com/1189">3단계: CRUD API 작성</a><br/>
+    <a href="https://stbhg5.tistory.com/1193">4단계: 기획에 근거한 서비스 개발</a><br/>
     <a href=""></a><br/>
     <br/><br/>
 
