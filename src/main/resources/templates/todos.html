@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>My To-Do List</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div class="app-shell">
+    <div class="app-header">
+        <h1>My To-Do List</h1>
+        <div class="user-info">
+            <span th:text="${userEmail}"></span>
+            <form class="logout-form" th:action="@{/logout}" method="post">
+                <button type="submit" class="btn btn-secondary">로그아웃</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="alert alert-error" th:if="${error}" th:text="${error}"></div>
+
+    <form class="add-form" th:action="@{/todos}" method="post">
+        <input type="hidden" name="filter" th:value="${filter}">
+        <input type="text" name="title" placeholder="새로운 할 일을 입력하세요" required autofocus>
+        <button type="submit" class="btn">추가</button>
+    </form>
+
+    <div class="tabs">
+        <a th:href="@{/todos(filter='all')}" th:classappend="${filter == 'all'} ? 'active'">전체</a>
+        <a th:href="@{/todos(filter='incomplete')}" th:classappend="${filter == 'incomplete'} ? 'active'">미완료</a>
+        <a th:href="@{/todos(filter='completed')}" th:classappend="${filter == 'completed'} ? 'active'">완료</a>
+    </div>
+
+    <ul class="todo-list" th:if="${!todos.isEmpty()}">
+        <li class="todo-item" th:each="todo : ${todos}" th:classappend="${todo.completed} ? 'completed'">
+            <form class="toggle-form" th:action="@{/todos/{id}/toggle(id=${todo.id})}" method="post">
+                <input type="hidden" name="filter" th:value="${filter}">
+                <input type="checkbox" th:checked="${todo.completed}">
+            </form>
+
+            <span class="todo-title" th:text="${todo.title}"></span>
+
+            <div class="todo-actions">
+                <button type="button" class="btn btn-secondary" data-edit-trigger>수정</button>
+                <form class="delete-form" th:action="@{/todos/{id}/delete(id=${todo.id})}" method="post">
+                    <input type="hidden" name="filter" th:value="${filter}">
+                    <button type="submit" class="btn btn-danger">삭제</button>
+                </form>
+            </div>
+
+            <form class="edit-form" th:action="@{/todos/{id}/edit(id=${todo.id})}" method="post">
+                <input type="hidden" name="filter" th:value="${filter}">
+                <input type="text" name="title" th:value="${todo.title}" required>
+                <button type="submit" class="btn">저장</button>
+                <button type="button" class="btn btn-secondary" data-edit-cancel>취소</button>
+            </form>
+        </li>
+    </ul>
+
+    <div class="empty-state" th:if="${todos.isEmpty()}">
+        표시할 할 일이 없습니다.
+    </div>
+</div>
+
+<script th:src="@{/js/todos.js}"></script>
+</body>
+</html>
