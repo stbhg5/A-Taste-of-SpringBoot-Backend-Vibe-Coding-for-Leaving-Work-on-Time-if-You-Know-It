@@ -22,7 +22,7 @@
     <a href="https://stbhg5.tistory.com/1185">2단계: Spring Boot 프로젝트 생성</a><br/>
     <a href="https://stbhg5.tistory.com/1189">3단계: CRUD API 작성</a><br/>
     <a href="https://stbhg5.tistory.com/1193">4단계: 기획에 근거한 서비스 개발</a><br/>
-    <a href=""></a><br/>
+    <a href="https://stbhg5.tistory.com/1202">오류수정 및 개발 완료</a><br/>
     <br/><br/>
 
 <h2><h2/>
