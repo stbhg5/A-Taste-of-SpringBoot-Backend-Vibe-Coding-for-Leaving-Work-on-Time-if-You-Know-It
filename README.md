@@ -25,7 +25,7 @@
     <a href="https://stbhg5.tistory.com/1202">오류수정 및 개발 완료</a><br/>
     <br/><br/>
 
-<h2><h2/>
-    <a href=""></a><br/>
-    <a href=""></a><br/>
+<h2>5. [부록] 변화에 따른 결과 차이<h2/>
+    <a href="https://stbhg5.tistory.com/1205">기존 프롬프트 + Claude Desktop + MCP server (IntelliJ)</a><br/>
+    <a href="https://stbhg5.tistory.com/1206">개선한 프롬프트 + Claude Sonnet 4.5</a><br/>
     <br/><br/>
